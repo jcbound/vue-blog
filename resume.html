@@ -1,20 +1,23 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/a.css">
+    <script src="//at.alicdn.com/t/font_1049550_xomfnkw9lh.js"></script>
     <title>我的简历</title>
 </head>
 <body>
-    <div class="topnavbar clearfix">
+    <div class="topnavbar">
+            <div class="topnavbar-1 clearfix">
         <a href="#" alt="logo" class="logo">
             <span class="rs">RS</span>
             <span class="card">card</span>
         </a>
+    
         <nav>
-            <ul>
+            <ul class="clearfix">
                 
                 <li><a href="#">关于</a></li>
                 <li><a href="#">技能</a></li>
@@ -26,18 +29,24 @@
                 <li><a href="#">其他</a></li>
             </ul>
         </nav>
-        <div class="banner"></div>
     </div>
-    <main>
+</div>
+    <div class="banner">
+        <div class="mask"></div>
+    </div>
+    <main class="usercard ">
+        <div class="picturAndText clearfix">
         <div class="picture">
-            <img src="#" alt="头像">
+            <img src="./images/startuper-hover-1-299x347.jpg" width="299" height="" alt="头像">
         </div>
-        <div class="profile">
-            <span class="welcome"></span>
+        <div class="profile ">
+            <span class="welcome">Hello
+                <i class="triangle"></i>
+            </span>
+            
             <h1>马金成</h1>
             <span>web前端开发</span>
             <hr>
-            <div class="personal">
                 <dl>
                     <dt>年龄</dt>
                     <dd>25</dd>
@@ -50,18 +59,36 @@
                 </dl>
             </div>
         </div>
-        <footer>
-            <img src="#" alt="微博">
-            <img src="" alt="QQ">
-            <img src="" alt="微信">
-            <img src="" alt="github">
-            <img src="" alt="掘金">
-            <img src="" alt="知乎">
+        <footer class="user-media">
+            <a href="#">
+                <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-weibo"></use>
+                    </svg></a>
+                    <a href="#">
+                    <svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-zhihu"></use>
+                        </svg></a>
+                        <a href="#">
+                        <svg class="icon" aria-hidden="true">
+                                <use xlink:href="#icon-changyonglogo28"></use>
+                            </svg></a>
+                            <a href="#">
+                            <svg class="icon" aria-hidden="true">
+                                    <use xlink:href="#icon-qq"></use>
+                                </svg></a>
+                                <a href="#">
+                                <svg class="icon" aria-hidden="true">
+                                        <use xlink:href="#icon-github"></use>
+                                    </svg></a>
         </footer>
-        <a href="#">下载简历</a>
-        <p>马金成，WEB前端工程师，成长之路永不止息。<br>
-            技能：HTML,CSS,JAVASCRIPT,JQUERY,VUE
-        </p>
+        
+    </main>
+    <main class="main-content">
+            <a href="#">下载简历</a>
+            <p>马金成，WEB前端工程师，成长之路永不止息。<br>
+                技能：HTML,CSS,JAVASCRIPT,JQUERY,VUE
+                ………………………………………………………………
+            </p>
     </main>
 </body>
 </html>
