@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    .taiji{
+    width: 800px;
+    height: 800px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background:linear-gradient(to bottom, #fff 0%,#fff 50%,#000 50%, #000 100%);
+    position:relative;
+    display:inline-block;
+    margin-right:200px;
+    }
+    .taiji .circleBlack{
+        display: block;
+        width: 400px;
+        height: 200px;
+        background-color: black;
+        border-color:#fff;
+        border-radius: 200px 200px 0 0;
+        position: absolute;
+        top:200px;
+        border:1px;
+
+    }
+    .taiji .circleWhite{
+        display: block;
+        width: 400px;
+        height: 200px;
+        background-color: white;
+        border-color:#000;
+        border-radius: 0 0 200px 200px;
+        position: absolute;
+        top:400px; 
+        left:400px;
+    }
+    .circleBlack:before{
+        content: "";
+        display: block;
+        width: 100px;
+        height: 100px;
+        background-color: white;
+        border-radius:100px;
+        position: absolute;
+        top:150px;
+        left: 150px;
+    }
+    .circleWhite:after{
+        content: "";
+        display: block;
+        width: 100px;
+        height: 100px;
+        background-color: black;
+        border-radius:100px;
+        position: absolute;
+        top:-50px;
+        left: 150px;
+    }
+    .taiji01{
+    width: 800px;
+    height: 800px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background:linear-gradient(to bottom, #fff 0%,#fff 50%,#000 50%, #000 100%);
+    position:relative;
+    display:inline-block;
+    }
+    
+    .taiji01:before{
+        content: "";
+        display: block;
+        width: 100px;
+        height: 100px;
+        background-color: white;
+        border:150px solid black;
+        border-radius:50%;
+        position: absolute;
+        top:200px;
+        left: 0;
+    }
+    .taiji01:after{
+        content: "";
+        display: block;
+        width: 100px;
+        height: 100px;
+        background-color: black;
+        border:150px solid white;
+        border-radius:50%;
+        position: absolute;
+        top:200px;
+        left:400px;
+    }
+    </style>
+</head>
+<body>
+    <div class="taiji">
+        <span class="circleBlack"></span>
+        <span class="circleWhite"></span>
+        <span>增加元素+伪元素</span> 
+    </div>
+    
+    
+    <div class="taiji01">
+        <span>伪元素</span>
+    </div>
+</body>
+</html>
