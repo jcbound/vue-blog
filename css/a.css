@@ -165,5 +165,147 @@ dt{
     fill: currentColor;
     vertical-align: top;
 }
+.main-content{
+    max-width:940px;
+    margin:0 auto;
+}
+.downloadresume{
+    max-width:940px;
+    margin:0 auto;
+    text-align: center;
+    margin-top:26px;
+}
+.downloadresume>a{
+    color:black;
+    border:1px solid #cbcdcf;
+    display:inline-block;
+    padding:26px 102px;
+    font-size:18px;
+    transition: ease 0.3s;
+    font-weight:bold;
+}
+.downloadresume>a:hover{
+    box-shadow:0px 7px 25px -3px rgb(143, 138, 138);
+}
+.main-content>p{
+    margin-top:33px;
+    line-height: 40px;
 
+}
+.profileskills{
+    margin-top:40px;
+    
+}
+.sumskills{
+    margin-top:30px;
+    background-color:white;
+    padding:37px;
+    box-shadow:0px 7px 10px -3px rgb(143, 138, 138);
+}
+.profileskills h1{
+    text-align:center;
+}
+.profileskills ul{
+    list-style: none;
+    padding-left:0;
+    margin-top:0;
+    overflow:hidden;
+    margin-bottom:0;
+}
+.profileskills ul li{
+    float:left;
+    padding-right:15px;
+    padding-left:15px;
+}
+.personalskills{
+    margin-bottom:40px;
+}
+.profileskills ul li h2{
+    font-weight:normal;
+    font-size:14px;
+    margin-top:5px;
+    margin-bottom:5px;
+}
+.progressbarF{
+    width:400px;
+    height:5px;
+    background-color: #ebd4d5;
+    border-radius:2px;
+}
+.progressbarS{
+    width:80%;
+    height:5px;
+    background-color:#e8676b;
+    border-radius:2px;
+}
+.portfolio{
+    margin-top:78px;
+}
+.portfolio h1{
+    text-align:center;
+    font-size:1.5em;
+    margin-bottom:40px;
+}
+.technolgycategory{
+    margin:0 auto;
+    text-align-last:justify 
+}
+.category-contain{
+    width:260px;
+    margin:0 auto;
+    text-align:justify 
+}
+.technolgycategory span{
+    display:inline-block;
+    cursor: pointer;
+}   
+#categoryShift{
+    text-align: left;
+    width:260px;
+    height:5px;
+    background-color: white;
+    margin:0 auto;
+    margin-top:15px;
+    border-radius:3px;
+}
+.technolgycategory .categoryShift-s{
+    display:inline-block;
+    width:80px;
+    height:100%;
+    background-color:#e8676b;
+    border-radius:3px;
+    vertical-align: top;
+    transition:linear 0.3s;
+}
+.technolgycategory #categoryShift.state-1 .categoryShift-s{
+    width: 34px;
+}
+.technolgycategory #categoryShift.state-2 .categoryShift-s{
+    margin-left:90px;
+    width:34px;
+}
+.technolgycategory #categoryShift.state-3 .categoryShift-s{
+    margin-left:180px;
+    width:80px;
+}
+.production{
+    margin-top: 30px;
+}
+.proleft ,.proright{
+    float: left;
+}
+.proleft,.right01,.right02{
+    padding: left 10px;
+    padding-right:10px;
+}
+.right01{
+    padding-bottom:10px;
+}
+.right02{
+    padding-top:5px;
+}
+.loading{
+    height:500px;
+    background-color: bisque;
+}
 

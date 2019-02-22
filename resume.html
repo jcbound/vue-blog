@@ -84,11 +84,104 @@
         
     </main>
     <main class="main-content">
-            <a href="#">下载简历</a>
-            <p>马金成，WEB前端工程师，成长之路永不止息。<br>
-                技能：HTML,CSS,JAVASCRIPT,JQUERY,VUE
-                ………………………………………………………………
+        <div class="downloadresume">
+            <a href="/images/resume.pdf" download="download">下载简历</a></div>
+            <p>马金成，WEB前端工程师，成长之路永不停息，
+                技能：HTML,CSS,JAVASCRIPT,JQUERY,VUE,熟练编写静态网页，熟悉DOM操作，熟悉Vue框架并利用进行工作，对form表单操作有一定的使用基础和经验。
             </p>
+            <section class="profileskills">
+                <h1>个人技能</h1>
+                <div class="sumskills">
+                <ul class="clearfix">
+                    <li>
+                        <div class="personalskills">
+                        <h2>WordPress</h2>
+                    <div class="progressbarF">
+                        <div class="progressbarS"></div>
+                            </div>
+                        </div>
+                        </li>
+                    <li>
+                        <div class="personalskills">
+                        <h2>HTML & CSS</h2>
+                        <div class="progressbarF">
+                                <div class="progressbarS"></div>
+                            </div>
+                        </div>
+                        </li>
+                    <li>
+                        <div class="personalskills">
+                        <h2>JavaScript</h2>
+                        <div class="progressbarF">
+                                <div class="progressbarS"></div>
+                            </div>
+                        </div>
+                        </li>
+                    <li>
+                        <div class="personalskills">
+                        <h2>PHP & MySQL</h2>
+                        <div class="progressbarF">
+                                <div class="progressbarS"></div>
+                            </div>
+                        </div>
+                        </li>
+                        
+                    <li>
+                        <h2>Drupal</h2>
+                        <div class="progressbarF">
+                                <div class="progressbarS"></div>
+                            </div>
+                        </li>
+                        
+                    <li>
+                        <h2>Photoshop</h2>
+                        <div class="progressbarF">
+                                <div class="progressbarS"></div>
+                            </div>
+                        </li>
+                </ul>
+            </div>
+            </section>
+            <div class="portfolio ">
+                <div class="category">
+                    <h1>项目经历</h1>
+                    <div class="technolgycategory">
+                        <div class="category-contain">
+                        <span onclick="" id="category01">所有</span>
+                        <span onclick="" id="category02">框架</span>
+                        <span onclick="" id="category03">原生js&css</span>
+                        </div>
+                        <div  id ="categoryShift" class="state-1">
+                            <span class="categoryShift-s"></span>
+                        </div>
+                    </div>
+                    <script>
+                            category01.onclick=function(){
+                                categoryShift.className="state-1" 
+                            }
+                            category02.onclick=function(){
+                                categoryShift.className="state-2" 
+                            }
+                            category03.onclick=function(){
+                                categoryShift.className="state-3" 
+                            }
+                            </script>
+                </div>
+                <div class="production clearfix">
+                    <div class="proleft">
+                        <img src="./images/production01.jpg" alt="">
+                    </div>
+                    <div class="proright">
+                        <div class="right01">
+                            <img src="./images/production02.jpg" alt="">
+                        </div>
+                        <div class="right02">
+                            <img src="./images/production03.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="loading">loading……</div>
+            </div>
     </main>
 </body>
 </html>
